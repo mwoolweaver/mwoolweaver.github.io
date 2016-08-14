@@ -821,7 +821,7 @@ section #title .credits {
   margin-top: -10px;
 }
 section #title .credits.left {
-  float: left;
+  float: center;
 }
 section #title .credits.right {
   float: right;
