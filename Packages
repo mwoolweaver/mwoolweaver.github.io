@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.alegreyasans_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.alegreyasans_1.0_iphoneos-arm.deb
 Size: 4489018
 MD5sum: c102608f9c926f74cd042b0f543dbdda
 SHA1: 892527ad685f7e063f915c0f7611b3c43e646953
@@ -18,7 +18,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.architectsdaughter_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.architectsdaughter_1.0_iphoneos-arm.deb
 Size: 3216242
 MD5sum: 88206bb2c3f98160e8e41bb4ccc90239
 SHA1: c35c393934ca64d7badd89ca47d978495412ca7b
@@ -33,7 +33,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.avenirnext_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.avenirnext_1.0_iphoneos-arm.deb
 Size: 5062684
 MD5sum: 6be4836cb0339362d861b0db29184b15
 SHA1: dba9a045c46343c4759c7d5fde57c682f78418c1
@@ -48,7 +48,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.avenirnextcondensed_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.avenirnextcondensed_1.0_iphoneos-arm.deb
 Size: 4567366
 MD5sum: c945e6973806b81130618f1437767ed3
 SHA1: 79128a2a785d385dd668916dfd4d6ddc05c2a955
@@ -63,7 +63,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.bariolios7_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.bariolios7_1.0_iphoneos-arm.deb
 Size: 3421282
 MD5sum: 18f55e4d99e91799d53d85f2f7c249c9
 SHA1: 2ccf6920fb45918f62715b35e1cf5d44ec59d88d
@@ -78,7 +78,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.bariolios9_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.bariolios9_1.0_iphoneos-arm.deb
 Size: 5221144
 MD5sum: eafb301cd22b0050502c57125b9bc560
 SHA1: 710f9479f369f3775414634469d0250b8e322090
@@ -93,7 +93,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.beatsbydre_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.beatsbydre_1.0_iphoneos-arm.deb
 Size: 4234052
 MD5sum: 607f4b9d8e044891b25652a83e48f359
 SHA1: ae84630a9e5e3fe308b51cff6ca742396cce8af6
@@ -108,7 +108,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.billabong_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.billabong_1.0_iphoneos-arm.deb
 Size: 6109218
 MD5sum: b7064c8371b55d01a6b3d61c4d5e15c3
 SHA1: 1cab93b74012b9cfc6d1ffe1bd46ebedd482c453
@@ -123,7 +123,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.blanch_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.blanch_1.0_iphoneos-arm.deb
 Size: 4503966
 MD5sum: 39106c1fb21bc03472c57dcba04e6d1c
 SHA1: 58e0a8d2b0b4bd2a56727eef7380db853690067a
@@ -138,7 +138,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.bubblegumsans_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.bubblegumsans_1.0_iphoneos-arm.deb
 Size: 3106056
 MD5sum: a5a81999e167f1e381f07a2474420001
 SHA1: 21c4dcc79efc57e6aca153c4e031dc9dd05d02f9
@@ -153,7 +153,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.calibri_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.calibri_1.0_iphoneos-arm.deb
 Size: 7722998
 MD5sum: 784091e1c08a52ac76b146ec2fc2436f
 SHA1: 78fc2303244c6b45a424c471daf97e7befc2f9f1
@@ -168,7 +168,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.caviardreams_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.caviardreams_1.0_iphoneos-arm.deb
 Size: 3161164
 MD5sum: be895be774447b65520ac0b83ade8bea
 SHA1: 4b77872f10a3118bb719edb66e2da9c01226acbe
@@ -183,7 +183,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.cicle_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.cicle_1.0_iphoneos-arm.deb
 Size: 4279334
 MD5sum: ba5f79d0e7a565f325eff5814af11f94
 SHA1: 4761ea15de43e3a6a35dffc121d51f40779e9c2c
@@ -198,7 +198,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.circular_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.circular_1.0_iphoneos-arm.deb
 Size: 4616826
 MD5sum: 423a3f95c2afb71955cb51c398b7d710
 SHA1: 32807c233a16f82260abd9c800bf0371b47d5258
@@ -213,7 +213,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.corporativesansrounded_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.corporativesansrounded_1.0_iphoneos-arm.deb
 Size: 4410806
 MD5sum: 9d1b9c40b7c519c5290c4099b7deb1cc
 SHA1: cd87fe1903c3a00e56f0e1f81fb481412e907c70
@@ -228,7 +228,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.dindisplaypro_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.dindisplaypro_1.0_iphoneos-arm.deb
 Size: 4410972
 MD5sum: 9dc9a23a3c148e864bcc2b2b823aa5ba
 SHA1: 7f243d1479825cfd72fdb3c2d74bf039318d6449
@@ -243,7 +243,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.droidsans_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.droidsans_1.0_iphoneos-arm.deb
 Size: 2986234
 MD5sum: 37bd8d5ffc19e8bd1ea9cbdb8f35aff6
 SHA1: 1a032741d4bcb58888cdb961b6db680ab833714b
@@ -258,7 +258,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.geosanslight_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.geosanslight_1.0_iphoneos-arm.deb
 Size: 3121560
 MD5sum: c240442afd3f71ff987f67075ffd55aa
 SHA1: a90e51f9019a0b3770d83089f5adc2eecafa6281
@@ -273,7 +273,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.hattorihanzo_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.hattorihanzo_1.0_iphoneos-arm.deb
 Size: 3141680
 MD5sum: 97311dbd6362709207afb3ad4930f67d
 SHA1: 99370f06259e03d2db02265e071834e1d95b4ec6
@@ -288,7 +288,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.helveticaneue_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.helveticaneue_1.0_iphoneos-arm.deb
 Size: 4732022
 MD5sum: 9da37d4934cc0b43f41e3fa1ed9a47a8
 SHA1: 8baacbd3058669a9a563c5fdf09d9b8bd397446d
@@ -303,7 +303,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.latolight_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.latolight_1.0_iphoneos-arm.deb
 Size: 3033034
 MD5sum: 086625cb4da9df6cc424213715c8908f
 SHA1: 8decb0a7070c0be62ae27e0328dffb053cd3e6ab
@@ -318,7 +318,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.lobstertwo_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.lobstertwo_1.0_iphoneos-arm.deb
 Size: 3231732
 MD5sum: 9975d7b91da9ec2ca9efcd9c40b8eb2b
 SHA1: 0b14b87b7d4490886a7af11a6b677c6933ba60a3
@@ -333,7 +333,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.myriadsetpro_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.myriadsetpro_1.0_iphoneos-arm.deb
 Size: 4707248
 MD5sum: e0c9f836e38d5cbf0c74f6cae2b17186
 SHA1: 011b7619868de94ee5a6e033eddcd9b83f827a62
@@ -348,7 +348,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.neotech_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.neotech_1.0_iphoneos-arm.deb
 Size: 5478712
 MD5sum: 7820540af1ddb8e093a330766026b54b
 SHA1: d4663852fd62a5baf36c3488da489bdcf5955fa9
@@ -363,7 +363,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.novelsansrounded_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.novelsansrounded_1.0_iphoneos-arm.deb
 Size: 3739982
 MD5sum: 73b1c30d425711d143101db661c258e8
 SHA1: 6a1253f0b7cdb505ac37cd2e56689baa61557514
@@ -378,7 +378,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.oldeenglishios8_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.oldeenglishios8_1.0_iphoneos-arm.deb
 Size: 3072498
 MD5sum: a44db7cd434b6177cd49832ebcd4c642
 SHA1: cce789236413ab456c9e96e283941c8e74cd8fd7
@@ -393,7 +393,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.oldeenglishios9_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.oldeenglishios9_1.0_iphoneos-arm.deb
 Size: 3083592
 MD5sum: 86cb9801a9848590d374b388d8d0d478
 SHA1: cf51661681649e00de50216741d42d2af342e23c
@@ -408,7 +408,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.omnes_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.omnes_1.0_iphoneos-arm.deb
 Size: 4097422
 MD5sum: 1d841561677a832b6ce2abcf36b6042c
 SHA1: 591cace3144ad8b900ae0e2394e5fa5e00d9ce8b
@@ -423,7 +423,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.opensans_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.opensans_1.0_iphoneos-arm.deb
 Size: 2894256
 MD5sum: 07e29709e409e5d3992fd1fcc0d66fa2
 SHA1: 2380648ee4399d0ca6c185dad4b2246507e3350f
@@ -438,7 +438,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.oxygen_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.oxygen_1.0_iphoneos-arm.deb
 Size: 3139608
 MD5sum: 3a5ae70bba39a2932857f8fcfae121c0
 SHA1: af4b1bd43142356312708b8a69da38fee4e9c255
@@ -453,7 +453,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.productsans_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.productsans_1.0_iphoneos-arm.deb
 Size: 4231854
 MD5sum: 357134ae177f4dbd1048c80d3c8b8a11
 SHA1: 99239023f5de419d53313a846bd15603d7e2b1ff
@@ -468,7 +468,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.proximanova_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.proximanova_1.0_iphoneos-arm.deb
 Size: 4199736
 MD5sum: b328090ee9de6c8305016289e86d76a3
 SHA1: 88cf53f6da1cf2a8fc0cfd65f51ba4deea45caf3
@@ -483,7 +483,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.qarmicsans_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.qarmicsans_1.0_iphoneos-arm.deb
 Size: 3236724
 MD5sum: 77983b377d45298c615a1f74a8805cf3
 SHA1: 8779fbe1340261f200a602ba8f77bc253101a6b7
@@ -498,7 +498,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.roboto_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.roboto_1.0_iphoneos-arm.deb
 Size: 2912838
 MD5sum: 135c3d33524a77e534c7deb10664df1e
 SHA1: e2bec820c71f5c72cdca9cda240532cd7597a311
@@ -513,7 +513,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.robotocondensedlight_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.robotocondensedlight_1.0_iphoneos-arm.deb
 Size: 4473196
 MD5sum: ca7cf5656d351b3a5e22ebec90e7ac70
 SHA1: 6eee8d7d6e61568ccaa964369321c2401b4300c0
@@ -528,7 +528,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.segoeui_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.segoeui_1.0_iphoneos-arm.deb
 Size: 4231862
 MD5sum: 72c3993cdee392792366dabab72a4374
 SHA1: f12e50be6ea0e0cb233d52c2f2f151c14f9f92f7
@@ -543,7 +543,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.solido_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.solido_1.0_iphoneos-arm.deb
 Size: 4424974
 MD5sum: 91b1e94533d29542c8e8e1b0b2194de9
 SHA1: 3456a7f607ce4d19bfc4dbd375ca34d6cc9f0b32
@@ -558,7 +558,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.tf2secondaryios7_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.tf2secondaryios7_1.0_iphoneos-arm.deb
 Size: 3407866
 MD5sum: 2fffc60086690f695cd8f9894d879fe3
 SHA1: e53eedb19f74fcda87f568c477a4865d5270730b
@@ -573,7 +573,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.tabitha_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.tabitha_1.0_iphoneos-arm.deb
 Size: 3117506
 MD5sum: 65b83fa8f5b0e74002d110ed51cef4b3
 SHA1: 74cacb6cfc5c3109ed1a675df27c495962bdc90d
@@ -588,7 +588,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.ubuntu_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.ubuntu_1.0_iphoneos-arm.deb
 Size: 2949688
 MD5sum: 2972bb98769b2476e7fe8290a62cf1b6
 SHA1: d303fc1379341b5c01318d4112f8c23fc5d5caa0
@@ -603,7 +603,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.ubuntulight_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.ubuntulight_1.0_iphoneos-arm.deb
 Size: 3045354
 MD5sum: 9313af25ebea393c2f2b14a16545313b
 SHA1: 520ca868de1ce29174146266946aedabcb03bbef
@@ -618,7 +618,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
 Depends: com.anemonetheming.anemone (>=1.1-348)
-Filename: ./deb/io.github.mwoolweaver.vagrounded_1.0_iphoneos-arm.deb
+Filename: ./deb/fonts/io.github.mwoolweaver.vagrounded_1.0_iphoneos-arm.deb
 Size: 5329174
 MD5sum: f12b7a1ef6c278d2c87353b1af5d8e52
 SHA1: 5c747acee665896145a439e4c7e362cf37076202
