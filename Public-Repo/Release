@@ -1,8 +1,8 @@
-Origin: mwoolweaver's Public Repo Repository 
-Label; mwoolweaver's Public Repo Repository 
+Origin: mwoolweaver's Public Repository 
+Label; mwoolweaver's Public Repository 
 Suite: stable
 Version: 0.9
-Codename: mwoolweaver's Public Repo Repository
+Codename: mwoolweaver's Public Repository
 Architectures: iphoneos-arm
 Components: main
-Description: mwoolweaver's Public Repo Repository
+Description: mwoolweaver's Public Repository
