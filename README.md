@@ -11,3 +11,6 @@
 * this repo is Public-Repo/
 
 [https://mwoolweaver.github.io/Public-Repo](cydia://url/https://cydia.saurik.com/api/share#?source=https://mwoolweaver.github.io/Public-Repo)
+
+
+Plz use the [Issues Pages](https://github.com/mwoolweaver/mwoolweaver.github.io/issues/) if something doesn't work.
