@@ -1,4 +1,4 @@
-## Repositories by @mwoolweaver
+## Repositories by [@mwoolweaver](https://github.com/mwoolweaver)
 
 ### Anemone-Fonts
 
