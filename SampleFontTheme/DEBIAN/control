@@ -1,0 +1,9 @@
+Package: io.github.mwoolweaver.SampleFontThemeLayout
+Name: Sample Font Theme Layout for Anemone
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Sample Font Theme Layout for Anemone
+Depends: com.anemonetheming.anemone (>=1.1-348), firmware (>=[iOS Version])
+Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
+Author: Michael Woolweaver <m.woolweaver@icloud.com>
+Section: Fonts ([iOS Version] Anemone)
