@@ -1,9 +1,0 @@
-Package: io.github.mwoolweaver.AvenirNextCondensed
-Name: Avenir Next Condensed Font for Anemone
-Version: 1.0
-Architecture: iphoneos-arm
-Description: This is the Avenir Next Condensed font for use with nightly builds of Anemone which can be found @ https://anemonetheming.com/nightly/ \nTHESE FONTS WILL NOT WORK WITH THE VERSION OF ANEMONE ON THE BIGBOSS REPO
-Depends: com.anemonetheming.anemone (>=1.1-348)
-Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
-Author: Michael Woolweaver <m.woolweaver@icloud.com>
-Section: Fonts (iOS 9 Anemone)
