@@ -610,7 +610,7 @@ strong {
 .wrapper {
   max-width: 650px;
   margin: 0 auto;
-  position: absolute;
+  position: center;
   padding: 0 20px;
 }
 
