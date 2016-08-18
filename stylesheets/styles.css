@@ -153,6 +153,7 @@ textarea {
 body {
   margin: 0;
   position: center;
+  vertical-align: middle;
 }
 
 /* =============================================================================
@@ -612,7 +613,8 @@ strong {
   max-width: 650px;
   margin: 0 auto;
   position: center;
-  padding: 0 20px;
+  vertical-align: middle;
+  padding: 0 10px;
 }
 
 .Absolute-Center {
