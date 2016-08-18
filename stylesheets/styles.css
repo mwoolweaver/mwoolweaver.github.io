@@ -135,6 +135,7 @@ html {
   height: 100%;
   clip: auto;
   position: center;
+  vertical-align: middele;
   overflow: hidden;
 }
 
