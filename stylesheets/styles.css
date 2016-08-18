@@ -131,8 +131,8 @@ html {
   /* 2 */
   -ms-text-size-adjust: 100%;
   /* 2 */
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   clip: auto;
 }
 
