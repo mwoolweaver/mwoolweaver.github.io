@@ -1,4 +1,4 @@
-# Collected Things
+# Collection of Things
 
 
 ## Cydia Repositories
@@ -10,7 +10,3 @@
 ### Public-Repo
 
 [https://mwoolweaver.github.io/Public-Repo](cydia://url/https://cydia.saurik.com/api/share#?source=https://mwoolweaver.github.io/Public-Repo)
-
-### Request & Issues
-
-Plz use the [Issues Pages](https://github.com/mwoolweaver/mwoolweaver.github.io/issues/) if something doesn't work or you have a request.
