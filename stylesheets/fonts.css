@@ -1,6 +1,5 @@
-@@import "cydia.css"
-@font-face
-{
+@import "cydia.css";
+@font-face {
 font-family: BeatsByDre;
 src: url('BeatsByDre.woff2'),
 }
