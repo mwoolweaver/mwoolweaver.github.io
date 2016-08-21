@@ -72,3 +72,13 @@ src: url('Blanch.woff') formatt('woff');
   font-family: 'CorporativeSansRounded';
   src: url('CorporativeSansRounded.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'DinDisplayPro';
+  src: url('DinDisplayPro.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'DroidSans';
+  src: url('DroidSans.woff') format('woff');
+}
