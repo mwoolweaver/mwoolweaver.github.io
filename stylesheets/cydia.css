@@ -81,7 +81,7 @@ sup {
     margin-top: -6px
 }
 pre {
-    font-family: monospace
+    font-family: "BeatsByDre"
 }
 
 html.cytyle-faux {
@@ -246,7 +246,7 @@ panel>fieldset {
 panel>fieldset.terminal {
     background-color: #000;
     color: #fff;
-    font-family: monospace;
+    font-family: "BeatsByDre";
     font-size: 14px;
     font-weight: bold;
     padding: 10px
