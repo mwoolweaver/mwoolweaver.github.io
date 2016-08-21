@@ -87,3 +87,8 @@ src: url('Blanch.woff') formatt('woff');
   font-family: 'GeoSansLight';
   src: url('GeoSansLight.woff') format('woff');
 }
+
+@font-face { 
+  font-family: 'HattoriHanzo';
+  src: url('HattoriHanzo.woff') format('woff');
+}
