@@ -16,6 +16,46 @@ src: url('ArchitectsDaughter.woff') format('woff');
    src:url('AvenirNextCondensed.woff') format('woff');
 }
 @font-face {
+font-family: 'Bariol';
+src: url('Bariol.woff') format('woff');
+}
+@font-face {
 font-family: 'BeatsByDre';
 src: url('BeatsByDre.woff') format('woff');
+}
+@font-face {
+  font-family: ('Billabong');
+  src: url('Billabong.woff') format('woff');
+}
+@font-face {
+font-family: ('Blanch');
+src: url('Blanch.woff') formatt('woff');
+}
+@font-face {
+  font-family: ('BubblegumSans');
+  src: url('BubblegumSans.woff') format('woff');
+}
+@font-face {
+  font-family: ('Calibri');
+  src: url('Calibri.woff') format('woff');
+}
+@font-face {
+  font-family: ('CaviarDreams');
+  src: url('CaviarDreams.woff') format('woff');
+}
+@font-face {
+  font-family: ('ChampagneAndLimousines');
+  src: url('ChampagneAndLimousines.woff') format('woff');
+}
+@font-face {
+  font-family: ('Cicle');
+  src: url('Cicle.woff') format('woff');
+}
+@font-face {
+  font-family: ('Circular');
+  src: url('Circular.woff') format('woff');
+}
+@font-face {
+  font-family: ('CorporativeSansRounded');
+  src: url('CorporativeSansRounded.woff') format('woff');
 }
