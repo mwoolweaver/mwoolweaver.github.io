@@ -3,7 +3,18 @@
   font-family: 'AlegreyaSans';
   src: url('AlegreyaSans.woff') format('woff');
 }
-
+@font-face {
+font-family: 'ArchitectsDaughter';
+src: url('ArchitectsDaughter.woff') format('woff');
+}
+@font-face {
+  font-family: 'AvenirNext';
+  src:url('AvenirNext.woff') format('woff');
+}
+@font-face {
+   font-family: 'AvenirNextCondensed';
+   src:url('AvenirNextCondensed.woff') format('woff');
+}
 @font-face {
 font-family: 'BeatsByDre';
 src: url('BeatsByDre.woff') format('woff');
