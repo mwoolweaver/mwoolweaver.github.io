@@ -1,61 +1,76 @@
 @import url("../stylesheets/cydia.css");
+
 @font-face {
   font-family: 'AlegreyaSans';
   src: url('AlegreyaSans.woff') format('woff');
 }
+
 @font-face {
 font-family: 'ArchitectsDaughter';
 src: url('ArchitectsDaughter.woff') format('woff');
 }
+
 @font-face {
   font-family: 'AvenirNext';
   src:url('AvenirNext.woff') format('woff');
 }
+
 @font-face {
    font-family: 'AvenirNextCondensed';
    src:url('AvenirNextCondensed.woff') format('woff');
 }
+
 @font-face {
 font-family: 'Bariol';
 src: url('Bariol.woff') format('woff');
 }
+
 @font-face {
 font-family: 'BeatsByDre';
 src: url('BeatsByDre.woff') format('woff');
 }
+
 @font-face {
-  font-family: ('Billabong');
+  font-family: 'Billabong';
   src: url('Billabong.woff') format('woff');
 }
+
 @font-face {
-font-family: ('Blanch');
+font-family: 'Blanch';
 src: url('Blanch.woff') formatt('woff');
 }
+
 @font-face {
-  font-family: ('BubblegumSans');
+  font-family: 'BubblegumSans';
   src: url('BubblegumSans.woff') format('woff');
 }
+
 @font-face {
-  font-family: ('Calibri');
+  font-family: 'Calibri';
   src: url('Calibri.woff') format('woff');
 }
+
 @font-face {
-  font-family: ('CaviarDreams');
+  font-family: 'CaviarDreams';
   src: url('CaviarDreams.woff') format('woff');
 }
+
 @font-face {
-  font-family: ('ChampagneAndLimousines');
+  font-family: 'ChampagneAndLimousines';
   src: url('ChampagneAndLimousines.woff') format('woff');
 }
+
 @font-face {
-  font-family: ('Cicle');
+  font-family: 'Cicle';
   src: url('Cicle.woff') format('woff');
 }
+
 @font-face {
-  font-family: ('Circular');
+  font-family: 'Circular';
   src: url('Circular.woff') format('woff');
 }
+
 @font-face {
-  font-family: ('CorporativeSansRounded');
+  font-family: 'CorporativeSansRounded';
   src: url('CorporativeSansRounded.woff') format('woff');
 }
