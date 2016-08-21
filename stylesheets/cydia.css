@@ -102,6 +102,11 @@ body {
     -webkit-user-select: none;
     margin: 0 auto
 }
+
+body.fontname {
+    font-family: 'BeatsByDre'
+  }
+
 body.white {
     background-color: #fff
 }
