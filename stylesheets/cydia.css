@@ -1,3 +1,5 @@
+@@import "fonts.css";
+
 panel>input[type="submit"],
 fieldset>a>div>div>input[type="checkbox"],
 fieldset>a>div>div>select {

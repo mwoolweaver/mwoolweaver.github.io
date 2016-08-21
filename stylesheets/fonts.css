@@ -1,0 +1,6 @@
+@font-face
+{
+font-family: BeatsByDre;
+src: url('BeatsByDre.woff'),
+}
+body .fontname { font-family: 'BeatsByDre'; }
