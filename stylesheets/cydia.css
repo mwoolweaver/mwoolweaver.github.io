@@ -1,4 +1,3 @@
-@import "fonts.css";
 panel>input[type="submit"],
 fieldset>a>div>div>input[type="checkbox"],
 fieldset>a>div>div>select {
@@ -81,17 +80,16 @@ sup {
     margin-top: -6px
 }
 pre {
-    font-family: "BeatsByDre"
+    font-family: monospace
 }
-
 html.cytyle-faux {
-    font-family: "BeatsByDre"
+    font-family: Helvetica, Arial
 }
 html.cytyle-faux #cytyle-metric {
     font-size: 16px
 }
 html.cytyle-flat {
-    font-family: "BeatsByDre"
+    font-family: "Helvetica Neue", Helvetica, Arial
 }
 html.cytyle-flat #cytyle-metric {
     font-size: 17px
@@ -246,7 +244,7 @@ panel>fieldset {
 panel>fieldset.terminal {
     background-color: #000;
     color: #fff;
-    font-family: "BeatsByDre";
+    font-family: monospace;
     font-size: 14px;
     font-weight: bold;
     padding: 10px
