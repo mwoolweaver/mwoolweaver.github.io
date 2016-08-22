@@ -71,7 +71,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: inherit;
 }
 
 /*
@@ -187,8 +187,8 @@ pre,
 code,
 kbd,
 samp {
-  font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  font-family: inherit;
+  _font-family: inherit;
   font-size: 1em;
 }
 
@@ -461,7 +461,7 @@ table {
 body {
   padding: 0px 0 10px 0px;
   margin: 0px;
-  font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 inherit;
   color: #f0e7d5;
   font-weight: normal;
   background: #252525;
@@ -477,7 +477,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #e8e8e8;
   margin: 0 0 10px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: inherit;
   font-weight: normal;
 }
 
@@ -504,7 +504,7 @@ h4, h5, h6 {
 h3 {
   font-size: 18px;
   line-height: 24px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: inherit;
   font-weight: normal;
   color: #b6b6b6;
 }
@@ -530,7 +530,7 @@ ul {
 }
 
 strong {
-  font-family: 'OpenSansBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: inherit;
   font-weight: normal;
 }
 
@@ -606,7 +606,7 @@ th {
   padding: 5px 10px;
   border-bottom: 1px solid #434343;
   color: #b6b6b6;
-  font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: inherit;
   font-weight: normal;
 }
 
@@ -626,7 +626,7 @@ hr {
 
 dt {
   color: #F0E7D5;
-  font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: inherit;
   font-weight: normal;
 }
 
@@ -652,7 +652,7 @@ dt {
   margin: 6px auto;
 }
 #header nav li {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: inherit;
   font-weight: normal;
   list-style: none;
   display: inline;
@@ -730,7 +730,7 @@ section #title {
   padding: 0 0 5px 0;
 }
 section #title h1 {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: inherit;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
@@ -738,14 +738,14 @@ section #title h1 {
 }
 section #title p {
   color: #d7cfbe;
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: inherit;
   font-weight: normal;
   font-size: 18px;
   text-align: center;
 }
 section #title .credits {
   font-size: 11px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: inherit;
   font-weight: normal;
   color: #696969;
 }
