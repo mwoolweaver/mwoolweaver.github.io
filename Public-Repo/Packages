@@ -1,0 +1,32 @@
+Package: us.mwoolweaver.FixBrokenClassicDock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
+Depends: com.anemonetheming.anemone (>=1.1-367)
+Filename: ./deb/us.mwoolweaver.fixbrokenclassicdock_1.0_iphoneos-arm.deb
+Size: 1002
+MD5sum: 15c5a359390e09d9e8c88e3c68449f52
+SHA1: 6de4e3c309ee609ffab7149a643650991e4abd78
+SHA256: 213249041fcaeaa61af5754b482d1ccd5f3b90184749b7811b26e813bc33a40c
+Section: Themes (Fixes)
+Description: A temporary fix for broken Classic Dock themes
+Author: Michael Woolweaver <m.woolweaver@icloud.com>
+Depiction: https://mwoolweaver.us/Public-Repo/dep/FixBrokenClassicDock/index.html
+Name: Fix Broken Classic Dock
+
+Package: us.mwoolweaver.FixBrokenModernDock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
+Depends: com.anemonetheming.anemone (>=1.1-367)
+Filename: ./deb/us.mwoolweaver.fixbrokenmoderndock_1.0_iphoneos-arm.deb
+Size: 998
+MD5sum: 6c1a0566c59da4f49841c9c2422c26ac
+SHA1: 0d4a48035773583ddfa136d89e3ecd6dfb1bdf75
+SHA256: 80729eccd779d65011afa85da7d26236cbb9761208419dd3bfec3672fc55f3cc
+Section: Themes (Fixes)
+Description: A temporary fix for broken Modern Dock themes
+Author: Michael Woolweaver <m.woolweaver@icloud.com>
+Depiction: https://mwoolweaver.us/Public-Repo/dep/FixBrokenModernDock/index.html
+Name: Fix Broken Modern Dock
+

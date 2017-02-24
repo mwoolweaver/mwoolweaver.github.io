@@ -1,0 +1,10 @@
+Package: us.mwoolweaver.FixBrokenModernDock
+Name: Fix Broken Modern Dock
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A temporary fix for broken Modern Dock themes
+Depends: com.anemonetheming.anemone (>=1.1-367)
+Maintainer: Michael Woolweaver <m.woolweaver@icloud.com>
+Author: Michael Woolweaver <m.woolweaver@icloud.com>
+Section: Themes (Fixes)
+Depiction: https://mwoolweaver.us/Public-Repo/dep/FixBrokenModernDock/index.html
