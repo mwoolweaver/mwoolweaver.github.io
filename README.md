@@ -5,9 +5,9 @@
 
 ### Anemone-Fonts
 
-https://github.com/mwoolweaver/Anemone-Fonts
+https://anemone-fonts.us
 
-https://mwoolweaver.us/Anemone-Fonts
+https://github.com/Anemone-Fonts
 
 
 ### Public-Repo
