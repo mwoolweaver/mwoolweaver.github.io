@@ -1,8 +1,8 @@
-Origin: Anemone Fonts
-Label: Anemone Fonts
+Origin: anemone-fonts.us
+Label: Anemone Fonts ⌐■_■
 Suite: stable
-Version: 301
-Codename: ios
+Version: 4.2.0
+Codename: anemone-fonts
 Architectures: iphoneos-arm
-Components: main
-Description: 301 Moved Permanently
+Components: anemone-fonts
+Description: A Cydia Repo For Anemone Fonts

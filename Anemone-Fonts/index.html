@@ -1,54 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+      <script type="text/javascript" src="https://wurfl.io/wurfl.js"></script>
+      <script>
+      function iOS() {
 
-<head>
-  <script type="text/javascript" src="https://wurfl.io/wurfl.js"></script>
-  <script>
-    function iOS() {
+        var iDevices = [
+          'iPad Simulator',
+          'iPhone Simulator',
+          'iPod Simulator',
+          'iPad',
+          'iPhone',
+          'iPod'
+        ];
 
-      var iDevices = [
-        'iPad Simulator',
-        'iPhone Simulator',
-        'iPod Simulator',
-        'iPad',
-        'iPhone',
-        'iPod'
-      ];
-
-      if (!!navigator.platform) {
-        while (iDevices.length) {
-          if (navigator.platform === iDevices.pop()) {
-            return true;
+        if (!!navigator.platform) {
+          while (iDevices.length) {
+            if (navigator.platform === iDevices.pop()){ return true; }
           }
         }
+        return false;
       }
-      return false;
-    }
-  </script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-86995396-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</head>
-
-<body>
-  <script>
-    if (WURFL.is_mobile === true) {
-      if (iOS() === true) {
-        document.location = "https://mwoolweaver.us/404/cydia.html";
-      } else {
-        document.location = "https://mwoolweaver.us/404/desktop.html";
-      }
-    } else {
-      document.location = "https://mwoolweaver.us/404/desktop.html";
-    }
-  </script>
-</body>
-
+      </script>
+    </head>
+    <body>
+      <script>
+      if (WURFL.is_mobile === true) {
+        if (iOS() === true) {
+          document.location = "./cydia.html";
+        }
+        else { document.location = "./desktop.html"; }
+        }
+        else { document.location = "./desktop.html"; }
+      </script>
+    </body>
 </html>
