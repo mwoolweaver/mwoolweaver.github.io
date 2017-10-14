@@ -1,0 +1,8 @@
+Origin: anemone-fonts.us
+Label: Anemone Fonts ⌐■_■
+Suite: stable
+Version: 4.2.0
+Codename: anemone-fonts
+Architectures: iphoneos-arm
+Components: anemone-fonts
+Description: A Cydia Repo For Anemone Fonts
