@@ -1,17 +1,12 @@
-# Collection of Things
+# [Jekyll iOS CSS](https://jekyll-ios-css.jpasholk.com)
 
+Based on [iOS-7-CSS](https://github.com/hbang/iOS-7-CSS) by [kirb](https://github.com/kirb), who is a gentleman and a scholar.
 
-## Cydia Repositories
+## TODO
 
-### Anemone-Fonts
+* Actually make a README..
 
-https://anemone-fonts.mwoolweaver.us
+* Make a working Cydia repository.
 
-https://github.com/Anemone-Fonts
-
-
-### Cydia Repo
-
-[https://github.com/mwoolweaver/Public-Repo](https://github.com/mwoolweaver/mwoolweaver.github.io/tree/master/Public-Repo)
-
-https://repo.mwoolweaver.us/
+## License
+Licensed under the Apache License, version 2.0. Refer to [LICENSE.md](LICENSE.md).
