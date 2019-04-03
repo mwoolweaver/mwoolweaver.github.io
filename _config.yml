@@ -129,6 +129,9 @@ syntax-highlight: True
 # Timeline #
 ############
 
+# https://github.com/Anemone-Fonts/fonts/commit/57ac2df8d085029f2208fbc14d3bcdc523d79bb3 commit one
+# https://github.com/dokterdok/Continuity-Activation-Tool/tree/986647d66b90f629f97129c3559434bc7470993d Oct '14
+
 events:
   - image: "/img/timeline/gce.png"
     date: " April 2019 "
@@ -136,15 +139,24 @@ events:
   - image: "/img/timeline/pihole.png"
     date: " November 2018 "
     description: "Saving network overhead! An adventure with Pi-Hole on Raspberry Pi 3B."
+  - image: "/img/timeline/apt.png"
+    date: " October 2017 "
+    description: "Fooling APT (Cydia's package mangager) with an empty repo."
   - image: "/img/timeline/raspberry-pi.png"
     date: " September 2017 "
     description: "Starting down a rabbit hole! My first steps with a Raspberry Pi 3B."
+  - image: "/img/timeline/anemone.png"
+    date:  "February 2017 "
+    description: "The day I discovered Anemone could change fonts on iOS."
   - image: "/img/timeline/linux.jpg"
     date: " December 2016 "
     description: "10 Operating System on one laptop. Because why not?!"
   - image: "/img/timeline/electricity.jpg"
     date: " May 2016 "
     description: "Wireless electricity is pure excitement."
+  - image: "/img/timeline/continuity.jpg"
+    date: " January 2016 "
+    description: "Hacktivating Continuity on a MacBookPro8,1."
   - image: "/img/timeline/macows.jpg"
     date: " September 2015 "
     description: "Triple Booting my MacBookPro8,1, Learning to manage a hybrid MBR."
