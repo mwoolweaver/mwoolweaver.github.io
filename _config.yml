@@ -55,8 +55,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Nothing today, Something tomorrow."
-  - text: "Was today wasted if nothing new was learned?"
+  - text: "Science means constantly walking a tightrope between blind faith and curiosity; between expertise and creativity; between bias and openness; between experience and epiphany; between ambition and passion; and between arrogance and conviction - in short, between an old today and a new tomorrow."
+  - text: "The aim of education should be to teach us rather how to think, than what to think – rather to improve our minds, so as to enable us to think for ourselves, than to load the memory with thoughts of other men."
 
 #me-img: "/img/jetpacktocat.png"
 
