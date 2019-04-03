@@ -208,8 +208,8 @@ social:
     url: "https://twitter.com/m_woolweaver"
   - title: "github"
     url: "https://github.com/mwoolweaver"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/3NdGebkCc28Mcp5bMSXkaTs8ggkBbiuRCX"
+  #- title: "bitcoin"
+  #  url: "https://blockchain.info/address/3NdGebkCc28Mcp5bMSXkaTs8ggkBbiuRCX"
   #- title: "rss"
     #url: "/feed.xml"
 
