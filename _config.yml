@@ -212,7 +212,7 @@ err-404-img: "/img/labtocat.png"
 ##################
 
 keybase-username: mwoolweaver
-keybase-in-social: False
+keybase-in-social: True
 keybase-in-footer: True
 
 ################################################################################
