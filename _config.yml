@@ -196,8 +196,8 @@ social:
     url: "https://twitter.com/m_woolweaver"
   - title: "github"
     url: "https://github.com/mwoolweaver"
-  #- title: "bitcoin"
-    #url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  - title: "bitcoin"
+    url: "https://blockchain.info/address/3NdGebkCc28Mcp5bMSXkaTs8ggkBbiuRCX"
   #- title: "rss"
     #url: "/feed.xml"
 
@@ -211,9 +211,9 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-#keybase-username: johnsmith
-#keybase-in-social: True
-#keybase-in-footer: True
+keybase-username: mwoolweaver
+keybase-in-social: False
+keybase-in-footer: True
 
 ################################################################################
 
