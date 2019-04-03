@@ -7,9 +7,9 @@ title: A Collection of Things
 
 ## Cydia Repos
 
-* [repo.mwoolweaver.us](https://repo.mwoolweaver.us/)
+* [repo.woolweaver.site](https://repo.woolweaver.site/)
 
-* [anemone-fonts.mwoolweaver.us](https://anemone-fonts.mwoolweaver.us/)
+* [anemone-fonts.woolweaver.site](https://anemone-fonts.woolweaver.site/)
 
 ## iOS Kernel Stuff
 
