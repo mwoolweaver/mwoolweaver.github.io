@@ -31,8 +31,8 @@ force-https: True
 lang: "en"
 author: "Michael Woolweaver"
 title: "{ Michael Woolweaver }"
-description: "Michael Woolweaver's Computer Science Cruise."
-keywords: "Woolweaver, Michael, blog, computer, science, macOS, iOS, Mac, iPhone"
+description: "Michael Woolweaver's Technology Cruise."
+keywords: "Woolweaver, Michael, blog, computer, science, macOS, iOS, Mac, iPhone, technology"
 favicon: "/img/favicon.ico"
 
 ################
