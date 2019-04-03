@@ -31,7 +31,7 @@ force-https: True
 lang: "en"
 author: "Michael Woolweaver"
 title: "{ Michael Woolweaver }"
-description: "Michael Woolweaver's Technology Cruise."
+description: "Michael Woolweaver's Cruise Through Technology."
 keywords: "Woolweaver, Michael, computer, science, macOS, iOS, Mac, iPhone, technology"
 favicon: "/img/favicon.ico"
 
@@ -55,8 +55,8 @@ type-speed: 9
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Science means constantly walking a tightrope between blind faith and curiosity; between expertise and creativity; between experience and epiphany; - in short, between an old today and a new tomorrow."
-  - text: "The aim of education should be to teach us how to think, rather than what –  to enable us to think for ourselves, rather than load the memory with thoughts of other men."
+  - text: "Science means constantly walking a tightrope between blind faith and curiosity; between an old today and a new tomorrow."
+  - text: "The aim of education should be to teach us how to think, rather than what – to enable us to think for ourselves."
 #me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
