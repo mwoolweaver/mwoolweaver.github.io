@@ -132,11 +132,20 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "April 2019 - Today"
-    description: "Saving network overhead!"
+    date: " April 2019 "
+    description: "Saving network overhead from the Cloud! An adventure with Pi-Hole on Google Compute Engine."
+  - image: "/img/timeline/spidertocat.png"
+    date: " November 2018 "
+    description: "Saving network overhead! An adventure with Pi-Hole on Raspberry Pi 3B."
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2015 - August 2018"
-    description: "Started down a rabbit hole!"
+    date: " September 2017 "
+    description: "Started down a rabbit hole! My first steps with a Raspberry Pi 3B."
+  - image: "/img/timeline/spidertocat.png"
+    date: " January 2011 "
+    description: "The iPhone2,1 and bootom 359.3, technology has me hooked."
+  - image: "/img/timeline/jailbreaking2.jpg"
+    date: " December 2010 "
+    description: "Jailbreaking the iPhone3,3, my love for tech was exposed."
 
 # First image of the Timeline
 
