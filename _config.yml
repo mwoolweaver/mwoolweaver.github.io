@@ -104,11 +104,11 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-#enable-gesture-navigation: True
+enable-gesture-navigation: True
 
-#post-preview-words: 96
+post-preview-words: 96
 
-#paginate: 5
+paginate: 5
 
 email-share: False
 fb-share: False
@@ -235,7 +235,6 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
