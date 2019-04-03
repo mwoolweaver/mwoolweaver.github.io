@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Modifying the social buttons
+title: Pi-Hole on Google Compute Engine
 category: tech
 tags: [ 'tutorial' ]
 ---

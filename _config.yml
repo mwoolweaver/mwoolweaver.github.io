@@ -135,7 +135,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/gce.png"
     date: " April 2019 "
-    description: "Saving network overhead from the Cloud! An adventure with Pi-Hole on Google Compute Engine."
+    description: "[Saving network overhead from the Cloud! An adventure with Pi-Hole on Google Compute Engine.](./tech/2019/04/03/Pi-Hole-on-Google-Compute-Engine.html)"
   - image: "/img/timeline/pihole.png"
     date: " November 2018 "
     description: "Saving network overhead! An adventure with Pi-Hole on Raspberry Pi 3B."
