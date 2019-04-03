@@ -31,8 +31,8 @@ force-https: True
 lang: "en"
 author: "Michael Woolweaver"
 title: "{ Michael Woolweaver }"
-description: "Blog and website of Michael Woolweaver. Opinions expressed are my own."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Michael Woolweaver's Compter Science Cruise."
+keywords: "Woolweaver, Michael, blog, computer, science, macOS, iOS, Mac, iPhone"
 favicon: "/img/favicon.ico"
 
 ################
@@ -58,7 +58,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Nothing today, Something tomorrow."
   - text: "Was today wasted if nothing new was learned?"
 
-me-img: "/img/jetpacktocat.png"
+#me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -111,16 +111,16 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+email-share: False
+fb-share: False
+twitter-share: False
+linkedin-share: False
+reddit-share: False
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 #disqus-shortname: "michael.woolweaver.site"
 
@@ -139,7 +139,7 @@ events:
     description: "Saving network overhead! An adventure with Pi-Hole on Raspberry Pi 3B."
   - image: "/img/timeline/raspberry-pi.png"
     date: " September 2017 "
-    description: "Started down a rabbit hole! My first steps with a Raspberry Pi 3B."
+    description: "Starting down a rabbit hole! My first steps with a Raspberry Pi 3B."
   - image: "/img/timeline/linux.jpg"
     date: " December 2016 "
     description: "10 Operating System on one laptop. Because why not?!"
