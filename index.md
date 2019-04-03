@@ -9,7 +9,7 @@ title: A Collection of Things
 
 * [repo.woolweaver.site](https://repo.woolweaver.site/)
 
-* [anemone-fonts.woolweaver.site](https://anemone-fonts.woolweaver.site/)
+* [anemone-fonts.woolweaver.site](https://anemonefonts.woolweaver.site/)
 
 ## iOS Kernel Stuff
 
