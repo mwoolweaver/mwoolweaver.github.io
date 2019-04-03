@@ -55,7 +55,7 @@ type-speed: 9
 start-delay: 175
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Science means constantly walking a tightrope between blind faith and curiosity; between expertise and creativity; between experience and epiphany - in short, between an old today and a new tomorrow."
+  - text: "Science means constantly walking a tightrope between blind faith and curiosity; between expertise and creativity; between experience and epiphany; - in short, between an old today and a new tomorrow."
   - text: "The aim of education should be to teach us rather how to think, than what to think – rather to improve our minds, so as to enable us to think for ourselves, than to load the memory with thoughts of other men."
   - text: "It is no use to preach to them if you do not act decently yourself, for the most effective way you can preach is by your practice."
 #me-img: "/img/jetpacktocat.png"
