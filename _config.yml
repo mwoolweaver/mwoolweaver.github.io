@@ -137,7 +137,7 @@ events:
   - image: "/img/timeline/spidertocat.png"
     date: " November 2018 "
     description: "Saving network overhead! An adventure with Pi-Hole on Raspberry Pi 3B."
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/raspberry-pi.png"
     date: " September 2017 "
     description: "Started down a rabbit hole! My first steps with a Raspberry Pi 3B."
   - image: "/img/timeline/Sn0wbreeze.png"
