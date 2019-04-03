@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mwoolweaver
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://michael.woolweaver.site
+  * I am mwoolweaver (https://keybase.io/mwoolweaver) on keybase.
+  * I have a public key ASDyozktfq8L_ZH5UxV5L4yUO9w55jWtuF6MLY6jmmxaNwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f2a3392d7eaf0bfd91f95315792f8c943bdc39e635adb85e8c2d8ea39a6c5a370a",
+      "host": "keybase.io",
+      "kid": "0120f2a3392d7eaf0bfd91f95315792f8c943bdc39e635adb85e8c2d8ea39a6c5a370a",
+      "uid": "c78e99af38a943f67ff46df976ece219",
+      "username": "mwoolweaver"
+    },
+    "merkle_root": {
+      "ctime": 1554310038,
+      "hash": "43f8090361f2b052c626e7ac68e3fe82515c451dbc24822db2df535d1e55026424af3585431977201c8c48f1e21786df404fa50791e7238b4368d716b6758ca9",
+      "hash_meta": "5333160f068d2e8b1029fe3cc57dee186e49ea2f6cc165f8066831e577912844",
+      "seqno": 5088203
+    },
+    "service": {
+      "entropy": "DHM+2OSx+l2tjpzsKsTsQCkb",
+      "hostname": "michael.woolweaver.site",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1554310041,
+  "expire_in": 504576000,
+  "prev": "2d92faec8d17697f1ae61683bb3f13be9a1b182e8a0bd8f69d4c03ac3ed6834a",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8qM5LX6vC/2R+VMVeS+MlDvcOeY1rbhejC2Oo5psWjcKp3BheWxvYWTESpcCC8QgLZL67I0XaX8a5haDuz8TvpobGC6KC9j2nUwDrD7Wg0rEIFQvL+jm+0krKXGcglxFVCcpBZd2AMFHxOfqp5XDpV1yAgHCo3NpZ8RAbtbLQnlbkgE62mFaMt+GRO3Dc9/GYjqLl+JdLZxWYSA5yIL3rnDjzyhb2kF0H/aAcN6daE7bb5h5Ty2XQGFoDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJM1y2sIQvzSwL3H/5fGiQBsI6BzWXCt3F0nG8JL0HNUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mwoolweaver
+
+==================================================================
