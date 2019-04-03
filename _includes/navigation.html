@@ -33,7 +33,7 @@
           {% endfor %}
 
         {% else %}
-          <!-- Blog, Post, Tag and Error pages
+          <!-- Blog, Post, Tag and Error pages -->
           {% for p in site.pages_list %}
             <li>
             {% if p[1] == "latest-post" %}
@@ -46,7 +46,7 @@
                 <a href="{{site.baseurl}}/#{{ p[1] }}"> {{p[0]}} </a>
             {% endif %}
             </li>
-          {% endfor %}-->
+          {% endfor %}
         {% endif %}
       </ul>
     </div>
