@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of https://michael.woolweaver.site
   * I am mwoolweaver (https://keybase.io/mwoolweaver) on keybase.
-  * I have a public key ASDyozktfq8L_ZH5UxV5L4yUO9w55jWtuF6MLY6jmmxaNwo
+  * I have a public key with fingerprint 16C9 5438 0CB2 3A8E EF41  5BF2 3B47 C942 9651 74AE
 
 To do so, I am signing this object:
 
@@ -14,39 +14,71 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "0120f2a3392d7eaf0bfd91f95315792f8c943bdc39e635adb85e8c2d8ea39a6c5a370a",
+      "fingerprint": "16c954380cb23a8eef415bf23b47c942965174ae",
       "host": "keybase.io",
-      "kid": "0120f2a3392d7eaf0bfd91f95315792f8c943bdc39e635adb85e8c2d8ea39a6c5a370a",
+      "key_id": "3b47c942965174ae",
+      "kid": "010147b6f7cbc9a47b1c3c310b0e60c12a4946070ebfad09005f27ae6b37324d49a80a",
       "uid": "c78e99af38a943f67ff46df976ece219",
       "username": "mwoolweaver"
     },
     "merkle_root": {
-      "ctime": 1554310038,
-      "hash": "43f8090361f2b052c626e7ac68e3fe82515c451dbc24822db2df535d1e55026424af3585431977201c8c48f1e21786df404fa50791e7238b4368d716b6758ca9",
-      "hash_meta": "5333160f068d2e8b1029fe3cc57dee186e49ea2f6cc165f8066831e577912844",
-      "seqno": 5088203
+      "ctime": 1554310109,
+      "hash_meta": "34cf173380815d540276086a322b83507a2767a49acf7a3af0a769964141324d",
+      "seqno": 5088208
+    },
+    "revoke": {
+      "sig_ids": [
+        "ef211faeb01312d1dccddab9005fbc11e054231322cf14ad2c3a9ed2cfe97c180f"
+      ]
     },
     "service": {
-      "entropy": "DHM+2OSx+l2tjpzsKsTsQCkb",
       "hostname": "michael.woolweaver.site",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 2
+    "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "3.1.2"
-  },
-  "ctime": 1554310041,
-  "expire_in": 504576000,
-  "prev": "2d92faec8d17697f1ae61683bb3f13be9a1b182e8a0bd8f69d4c03ac3ed6834a",
-  "seqno": 11,
+  "ctime": 1554310129,
+  "expire_in": 157680000,
+  "prev": "724e491e0965238baf6d7e52adc35e27017dc152de3a8b2729b4aa8982404b3a",
+  "seqno": 12,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8qM5LX6vC/2R+VMVeS+MlDvcOeY1rbhejC2Oo5psWjcKp3BheWxvYWTESpcCC8QgLZL67I0XaX8a5haDuz8TvpobGC6KC9j2nUwDrD7Wg0rEIFQvL+jm+0krKXGcglxFVCcpBZd2AMFHxOfqp5XDpV1yAgHCo3NpZ8RAbtbLQnlbkgE62mFaMt+GRO3Dc9/GYjqLl+JdLZxWYSA5yIL3rnDjzyhb2kF0H/aAcN6daE7bb5h5Ty2XQGFoDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJM1y2sIQvzSwL3H/5fGiQBsI6BzWXCt3F0nG8JL0HNUo3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMP/AnicbZNrbBVFGIbPkYpYLgIJSlIgYf1BouVkZvYyu6eAxWoqabgUhJC09TC7
+O3O6bc9uu7vtKUIDCGoMEVQsUC62UAoFIhch0RBEKEXumqCF4o1ARYFTCRTKVcDZ
+RkJi3D+zO3m/d97vmW9b+/cKpYezco++ujzf3xY+3rKoMlS4oeP6HEF3zNlCdI5Q
+SnsWWmZSz4+VWqYQFQBEgCEiihoyMSUM6MzUINNkEcpYQ0w1NEnUTUPUqCLKxNRV
+maoGMlVKRI0ohkxEDIiQKTDLjlO33LVsn9tCxdBkSVSBoSORqJQyCco6Q6IuYe6I
+NEWGWCKUFxY7XlDBw+nEoxHL4Xv8I9YT73/0j3MDKGFdYdjQDY3wV2iIhgiBDqgC
+DIiIpEkKwIDqjJhAA0BmCBOq6CIWkWRKGlF7clf22BlYpZpGmKgS3i9TMGOSYjIN
+K9SgCGqB0KOuTRKUqxNJxylLUlJFXaEmU0hQt7SMxlzH8QO+hm8FKihzADwl0HiP
+xCuOJahPgpYkg0EscjYqlE1ZAggrQFWIiJCuijLAhG9gHp8YDBORXwnBiqYpEpRg
+kJxH8WiF7QhRGagqAipP4NIqp5QGh3tWnJPzhGiBQBmCkBGqAyhCZELTMEyT6D0o
+dANCCmQJidwT8UASMZEhEo3yhVENG1AFTCiqCQ5zqyyjxzy4qscILKOY0LLIExIR
+z/KD+yl3Hd8xnDIuKvb9ci8aIPJnlwdVSarH/vWL6ZZt8pnhFbzYsxybI+PK/9BD
+nB6tLrdcGrMChYwVFfAnOIdWcUuMJCppvBk+IkhUdcIUPsgyInxmZYowgNg0oIxM
+yudQRxhpukSIqqlIApIukic4IeI5SZx7cog28StdKtS0HChMC4XTQ72ffir4mULp
+zw58/It9Hh4Y2jH8mLkxq/Y0+JH81TypYSi+mWrxLue8s+6XePzqqBEFRsOZ7T/0
+XTaxYlL2iw3NqaWn5ys7blROFybcP9L5d5+S/dX9JsfewienFpCz81ljwdxB8eSa
+0RUVO9zmw4O7cz5qyvt2cNOao8MWtu2/GP3qmQPDP1mghXcunLZhxHnTuzvx1u2r
+44/vmdg0IPRFOPOaM+Yz+/Jultf7hGher72Y2Hxu0MP3/HFTt8+yU/XTeudsLOmA
+lUdqltZfvk1+zu66hLuyU2njUhXNf8nLxnxdcyX5Z+r7itzbe693nRU6687Zq/d3
+VI7ctvXNmSdmZLivy1OS2XU/1e8q+jJ3Qfesk/MK26enVX+XseJDfD9r04IpQ2jb
+oyv3br67feqKCaMbxbWP5i9fvE+qOxLp/83sBvdcKvHGKU/OHbyyJLx65YzDLWxL
+JGtsN7vxsQSO91qi7npt6/r0oStW2fFFJH3IhclprSVWqH1seO7D5W60/c4MNuXT
+VcMSe9e1rn0pWX1oy8LJv+dtKj1kNzxo3fl899LdhR353fmsxb+Wca2zbkDklX21
+ty40nemzvji/PZnfULLrzPnae6fm7Z559OZBfVTfofVWzcHf6os292t+4blj5qTF
+S0oyQvq6QZ1ZmSN/bfMiXS83bnrQ2DB+T7G9teDw+Qf6HTMnuygVaXufRN4u/yDv
+7qMD0y794dvL/M39/wGCrxO/
+=1mRt
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
