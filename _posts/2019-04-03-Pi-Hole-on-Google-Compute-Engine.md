@@ -6,14 +6,14 @@ category: tech
 tags: [ 'tutorial' ]
 ---
 
-# Set up a Pi-Hole Ad Blocking VPN Server with a static Anycast IP on Google Cloud's Always Free Usage Tier
-## Configure Full Tunnel or Split Tunnel OpenVPN connections from your Android, iOS, macOS, & Windows devices
+Set up a Pi-Hole Ad Blocking VPN Server with a static Anycast IP on Google Cloud's Always Free Usage Tier
+Configure Full Tunnel or Split Tunnel OpenVPN connections from your Android, iOS, macOS, & Windows devices
 
-<img src="./images/data-privacy-risk.svg" width="125" align="right">
+
 
 The goal of this guide is to enable you to safely and privately use the Internet on your phones, tablets, and computers with a self-run VPN Server in the cloud. It can be run at no cost to you; shields you from intrusive advertisements; and blocks your ISP, cell phone company, public WiFi hotspot provider, and apps/websites from gaining insight into your usage activity.
 
-<img src="./images/upfront-cost.svg" width="90" align="right">
+
 
 Run your own privacy-first ad blocking service within the **[Free Usage Tier](https://cloud.google.com/free/)** on Google Cloud. **This guide gets you set up with a Google Cloud account, and walks you through setting up a full tunnel (all traffic) or split tunnel (DNS traffic only) VPN connection on your Android & iOS devices, and computers.**
 
@@ -27,43 +27,41 @@ Both Full Tunnel and Split Tunnel VPN connections provide DNS based ad-blocking 
 | full | +10% overhead for vpn | moderate | 100% encryption | yes
 | split | just kilobytes per day | very low | dns encryption only | yes
 
-The technical merits of major choices in this guide are outlined in [REASONS.md](./REASONS.md).
+The technical merits of major choices in this guide are outlined in [REASONS.md](https://github.com/mwoolweaver/Pi-Hole-PiVPN-Google-Compute-Engine/blob/master/REASONS.md).
 
 ---
 
-<img src="./images/logos/cloud.svg" width="48" align="left">
-
-# Google Cloud Login and Account Creation
+Google Cloud Login and Account Creation
 
 Go to https://cloud.google.com and click **Console** at the top right if you have previously used Google's Cloud Services, or click **Try Free** if it's your first time.
 
- ### Account Creation
+ Account Creation
+
  - **Step 1 of 2** <br> Agree to the terms and continue. <br><img src="./images/screenshots/5.png" width="265">
  - **Step 2 of 2** <br> Set up a payments profile and continue <br><img src="./images/screenshots/5.png" width="223">
- ### Project & Compute Engine Creation
- - Click the Hamburger Menu at the top left: <br><img src="./images/screenshots/1.png" width="197">
- - Click **Compute Engine**: <br><img src="./images/screenshots/2.png" width="138">
- - Select **VM instances**: <br><img src="./images/screenshots/3.png" width="102">
- - Create a Project if you don't already have one: <br><img src="./images/screenshots/4.png" width="294">
-- Enable billing for this Project if you haven't already: <br><img src="./images/screenshots/6.png" width="288">
-- Compute Engine will begin initializing: <br><img src="./images/screenshots/7.png" width="232">
 
-<img src="./images/logos/computeengine.svg" width="48" align="left">
+  Project & Compute Engine Creation
+ - Click the Hamburger Menu at the top left
+ - Click **Compute Engine**
+ - Select **VM instances**
+ - Create a Project if you don't already have one
+- Enable billing for this Project if you haven't already
+- Compute Engine will begin initializing
 
-# Compute Engine Virtual Machine Setup
 
-- Create a Virtual Machine instance on Compute Engine: <br><img src="./images/screenshots/8.png" width="216">
-- Customize the instance: <br><img src="./images/screenshots/8.png" width="216">
+Compute Engine Virtual Machine Setup
+
+- Create a Virtual Machine instance on Compute Engine
+- Customize the instance
 - Name your Virtual Machine **pi-hole**. <br>Your Region selection should be any US region only (excluding Northern Virginia [us-east4]). I have used **us-east1** and the **us-east1-b** zone because it is closest to me. <br>Choose a **micro** Machine Type in the dropdown. <br>Change the **Boot Disk** to be **30GB** if you plan on keeping your DNS lookup records for any reason, otherwise the default **10GB** disk allocation is adequate. <br>**Allow HTTP traffic** in the Firewall (add a checkmark).
-<br>**Allow HTTPS traffic** in the Firewall (add a checkmark). <br><img src="./images/screenshots/9.png" width="232">
-- Expand **Management, Security, disks, networking, sole tenancy** and click the **Network** tab. Click the Pencil icon under **Network Interfaces**. <br><img src="./images/screenshots/10.png" width="238">
-- The External IP Address should not be Ephemeral. Choose **Create IP Address** to Reserve a New Static IP Address <br><img src="./images/screenshots/13.png" width="230"> <br><img src="./images/screenshots/14.png" width="395">
-- You can log into your Virtual Machine via SSH in a Browser by clicking the SSH button. Make note of your External IP (it will be different from the screenshot below).<br><img src="./images/screenshots/15.png" width="369">
-- Click the Hamburger Menu at the top left, click **VPC Network** and click **Firewall Rules**. <br><img src="./images/screenshots/firewall.png" width="222"> <br>Click **Create Firewall Rule** at the top center of the page. The name of your rule should be `allow-openvpn`, change the **Targets** dropdown to **All instances in the network**. The **Source IP Ranges** should be `0.0.0.0/0`. The **udp** checkbox should be selected, and the port number next to it should be changed from `all` to `1194`. Then click the **Create** button. You can disable the `default-allow-rdp` rule which Google set up with a default action of Allow, but because our server does not run any service on Port 3389 it is harmless to leave this rule alone. Do not disable the **default-allow-ssh** firewall rule, or you will disable the browser-based SSH from within the Google Cloud Console.
+<br>**Allow HTTPS traffic** in the Firewall (add a checkmark).
+- Expand **Management, Security, disks, networking, sole tenancy** and click the **Network** tab. Click the Pencil icon under **Network Interfaces**.
+- The External IP Address should not be Ephemeral. Choose **Create IP Address** to Reserve a New Static IP Address
+- You can log into your Virtual Machine via SSH in a Browser by clicking the SSH button. Make note of your External IP (it will be different from the screenshot below).
+- Click the Hamburger Menu at the top left, click **VPC Network** and click **Firewall Rules**.  <br>Click **Create Firewall Rule** at the top center of the page. The name of your rule should be `allow-openvpn`, change the **Targets** dropdown to **All instances in the network**. The **Source IP Ranges** should be `0.0.0.0/0`. The **udp** checkbox should be selected, and the port number next to it should be changed from `all` to `1194`. Then click the **Create** button. You can disable the `default-allow-rdp` rule which Google set up with a default action of Allow, but because our server does not run any service on Port 3389 it is harmless to leave this rule alone. Do not disable the **default-allow-ssh** firewall rule, or you will disable the browser-based SSH from within the Google Cloud Console.
 
-<img src="./images/logos/debian.svg" width="48" align="left">
 
-# Debian Update & Upgrade
+Debian Update & Upgrade
 
 Once you log into your Virtual Machine via SSH, you want to update and upgrade it.
 
@@ -79,9 +77,9 @@ Update and upgrade by running this command in the bash shell:
 apt-get update && apt-get upgrade -y
 ```
 
-<img src="./images/logos/pihole.svg" width="48" align="left">
 
-# Pi-Hole Installation
+
+Pi-Hole Installation
 
 Pi-Hole is a DNS based adblocker.
 
@@ -99,7 +97,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 You will flow into a series of prompts in a blue screen.
 
-- Choose OK or answer positively for all the prompts until the "Select Protocols" question appears. IPv6 needs to be deselected as shown below: <br><img src="./images/screenshots/16.png" width="281">
+- Choose OK or answer positively for all the prompts until the "Select Protocols" question appears. IPv6 needs to be deselected as shown below
 
 - Choose OK or answer positively for all the other prompts.
 
@@ -111,13 +109,13 @@ pihole -a -p
 
 - Log into the web interface using the External IP that you noted down earlier at<br> `http://your-external-ip/admin/settings.php?tab=dns`
 
-- Click **Settings**, and navigate to **DNS**. <br>Set your **Interface Listening Behavior** to **Listen on All Interfaces** on this page: <br><img src="./images/screenshots/18.png" width="237">
+- Click **Settings**, and navigate to **DNS**. <br>Set your **Interface Listening Behavior** to **Listen on All Interfaces** on this page
 
 - Click the **Save** Button at the bottom of the page.
 
-<img src="./images/logos/pivpn.png" width="48" align="left">
 
-# PiVPN Installation
+
+ PiVPN Installation
 
 PiVPN is an OpenVPN setup and configuration tool.
 
@@ -135,13 +133,13 @@ curl -L https://install.pivpn.io | bash
 
 You will flow into a series of prompts in a blue screen. All of the default values are appropriate.
 
-- Choose OK or answer positively for all the prompts until you have to choose an upstream DNS provider. The default answer is Google. Choose **Custom** and set an IP Address of **10.8.0.1** <br><img src="./images/screenshots/custom-dns.png" width="284"><br><img src="./images/screenshots/custom-dns-ip.png" width="284">
+- Choose OK or answer positively for all the prompts until you have to choose an upstream DNS provider. The default answer is Google. Choose **Custom** and set an IP Address of **10.8.0.1**
 
 The default answer to reboot is **No** at the end of the installer. It is fine to say **No**, we have a few more things to edit while we're logged in as root.
 
-<img src="./images/logos/openvpn.svg" width="48" align="left">
 
-# OpenVPN Configuration
+
+ OpenVPN Configuration
 
 Ensure you have elevated root privileges by running this command in the bash shell:
 
@@ -155,7 +153,7 @@ Get into the openvpn directory by running this command in the bash shell:
 cd /etc/openvpn
 ```
 
-## Server Configuration for VPN over UDP on Port 1194
+ Server Configuration for VPN over UDP on Port 1194
 
 Edit **server.conf**. I use **nano** to edit by running this command in the bash shell:
 
@@ -196,73 +194,7 @@ At the bottom of the file add the following lines:
 
 Press `CTRL` `O` to bring up the save prompt at the bottom of Nano, press **Enter** to save. Then press `CTRL` `X` to exit
 
-## Server Configuration for VPN over TCP on Port 443
-
-Ensure you have elevated root privileges by running this command in the bash shell:
-
-```
-sudo su
-```
-
-Get into the openvpn directory by running this command in the bash shell:
-
-```
-cd /etc/openvpn
-```
-
-To accept incoming OpenVPN connections over TCP on port 443 we need a separate configuration file. We can clone our existing configuration as a starting point, by running this command in the bash shell:
-
-```
-cp server.conf server_tcp443.conf
-```
-
-Edit **server_tcp443.conf**. I use **nano** to edit by running this command in the bash shell:
-
-```
-nano server_tcp443.conf
-```
-
-Replace the `proto udp` and `port 1194` lines with:
-
-> ```
-> proto tcp
-> port 443
-> ```
-
-Edit the `server 10.8.0.0 255.255.255.0` line to reflect an IP address of **10.9.0.0**, so it reads as follows:
-
-> ```
-> server 10.9.0.0 255.255.255.0
-> ```
-
-Edit the `push "dhcp-option DNS 10.8.0.1"` line to reflect an IP address of **10.9.0.1**, so it reads as follows:
-
-> ```
-> push "dhcp-option DNS 10.9.0.1"
-> ```
-
-Comment out `keepalive 10 60` and add `keepalive 10 120` below it, so it appears as follows:
-
-> ```
-> # keepalive 10 60
-> keepalive 10 120
-> ```
-
-Comment out `fast-io` so it looks like this:
-
-> ```
-> # fast-io
-> ```
-
-Press `CTRL` `O` to bring up the save prompt at the bottom of Nano, press **Enter** to save. Then press `CTRL` `X` to exit
-
-Add the OpenVPN service on Port 443 by running this command in your bash shell:
-
-```
-systemctl enable openvpn@server_tcp443.service
-```
-
-## Finalize VPN Confgurations on Server
+ Finalize VPN Confgurations on Server
 
 Reboot the server by running this command in your bash shell:
 
@@ -272,7 +204,7 @@ shutdown -r now
 
 <img src="./images/logos/pivpn.png" width="48" align="left">
 
-# Managing the PiVPN
+Managing the PiVPN
 
 Connect to the Pi-Hole server and set up an OpenVPN Client Profile. (You do not need to have elevated root privileges to do this.)
 
@@ -305,7 +237,7 @@ cat ~/ovpns/mypixel3xl.ovpn
 
 Press `CTRL` `-` until the screen zooms out to a point where you can see the entire ovpn file printed on the screen. The first line will have the word `client` and the last line is `</tls-crypt>`. Highlighting this entire chunk with a mouse will cause a scissor icon to appear in the middle of your SSH window, this means this selection has been copied to your clipboard.
 
-## Saving a Split Tunnel VPN Client Profile for UDP VPN Connections on Port 1194
+Saving a Split Tunnel VPN Client Profile for UDP VPN Connections on Port 1194
 
 Paste this into your favorite Text Editor and save the file with a name that is clear: **mypixel3xl-udp-1194-split-tunnel.ovpn**
 
@@ -315,7 +247,7 @@ Around Line 12, edit the line which reads `cipher AES-256-CBC` and change it to 
 > cipher AES-128-GCM
 > ```
 
-## Saving a Full Tunnel VPN Client Profile for UDP VPN Connections on Port 1194
+ Saving a Full Tunnel VPN Client Profile for UDP VPN Connections on Port 1194
 
 Copy the contents of **mypixel3xl-udp-1194-split-tunnel.ovpn** and paste it into your favorite Text Editor, save the file with a name that is clear: **mypixel3xl-udp-1194-full-tunnel.ovpn**
 
@@ -324,40 +256,6 @@ Below `cipher AES-128-GCM` add this line:
 > ```
 > redirect-gateway def1
 > ```
-
-## Saving a Split Tunnel VPN Client Profile for TCP VPN Connections on Port 443
-
-Copy the contents of **mypixel3xl-udp-1194-split-tunnel.ovpn** and paste it into your favorite Text Editor, save the file with a name that is clear: **mypixel3xl-tcp-443-split-tunnel.ovpn**
-
-Change `proto udp` on Line 3 to `proto tcp`
-
-> ```
-> proto tcp
-> ```
-
-Change the `1194` at the end of Line 4 to `443`, do not change the IP address on this line (it is your Google Compute Engine Virtual Machine's external IP address):
-
-> ```
-> remote YOUR-EXTERNAL-IP-IS-HERE-LEAVE-THIS-AS-IT-IS 443
-> ```
-
-
-## Saving a Full Tunnel VPN Client Profile for TCP VPN Connections on Port 443
-
-Copy the contents of **mypixel3xl-tcp-443-split-tunnel.ovpn** and paste it into your favorite Text Editor, save the file with a name that is clear: **mypixel3xl-tcp-443-full-tunnel.ovpn**
-
-Below `cipher AES-128-GCM` add this line:
-
-> ```
-> redirect-gateway def1
-> ```
-
-Add the correct routing (second line) in **/etc/iptables/rules.v4**
-
-```
--A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
--A POSTROUTING -s 10.9.0.0/24 -o eth0 -j MASQUERADE
-```
 
 ## Make these .ovpn files available on your phone or tablet
 
@@ -374,10 +272,8 @@ E-mail these files to yourself, upload in Google Drive, or use whatever secure m
 
 This is open source software.
 
-<a href="https://f-droid.org/repository/browse/?fdid=de.blinkt.openvpn" target="_blank">
-<img src="./images/logos/f-droid.svg" alt="Get it on F-Droid" height="80"></a>
-<a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" target="_blank">
-<img src="./images/logos/google-play.svg" alt="Get it on Google Play" height="60"></a>
+<a href="https://f-droid.org/repository/browse/?fdid=de.blinkt.openvpn"> Get it on F-Droid</a>
+<a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn"> Get it on Google Play</a>
 
 Install the "OpenVPN for Android" application on your Android device.
 
