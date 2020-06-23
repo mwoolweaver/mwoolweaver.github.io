@@ -1,5 +1,10 @@
-[ dev beta](https://michael.woolweaver.bid/beta/)
-----------
+---
+layout: post
+section-type: post
+title:  Developer Betas
+category: tech
+tags: [ 'Developer-Beta' ]
+---
 
 [iOS 14](https://michael.woolweaver.bid/iOS_14_Beta_Profile.mobileconfig)
 
