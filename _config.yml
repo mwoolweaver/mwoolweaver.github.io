@@ -184,7 +184,7 @@ timeline-img: "/img/timeline/begin.png"
 # Contact #
 ###########
 
-email: "michael@woolweaver.site"
+email: "michael@woolweaver.bid"
 
 ################
 # Author Blurb #
@@ -202,8 +202,8 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
-  #- title: "facebook"
-    #url: "https://facebook.com/"
+  - title: "facebook"
+    url: "https://facebook.com/woolweaver.michael"
   - title: "twitter"
     url: "https://twitter.com/mdwoolweaver"
   - title: "github"
