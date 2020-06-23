@@ -1,4 +1,4 @@
- dev beta
+ [dev beta](https://michael.woolweaver.bid/beta/#-dev-beta)
 ----------
 
 [iOS 14](https://michael.woolweaver.bid/iOS_14_Beta_Profile.mobileconfig)
